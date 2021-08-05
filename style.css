@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#832828), to(cyan));
+  background-image: linear-gradient(to top, #832828, cyan);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: darkred;
+  margin-top: 20px;
+  min-width: 60%;
+  height: 150px;
+  border-radius: 25px;
+  outline: none;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#quote {
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: darkred;
+  font-family: 'MonteCarlo', cursive;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+#input-box {
+  margin-top: 50px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  text-align: center;
+  padding: 20px;
+}
+
+#input-area {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  width: 500px;
+  height: 60px;
+  background-color: #a8e1eb;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+#input-area:hover {
+  background-color: #daeeec;
+  font-size: 25px;
+}
+
+#button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: #a8e1eb;
+  width: 60px;
+  height: 60px;
+  border: none;
+  margin: 10px 0 0 20px;
+  border-radius: 25px;
+  outline: none;
+}
+
+#button:hover {
+  background-color: #daeeec;
+  font-size: 30px;
+}
+
+#notebook {
+  border: none;
+  min-width: 50%;
+  height: 400px;
+  border-radius: 30px;
+  margin-top: 10px;
+  background-image: url(https://www.pngkey.com/png/full/9-98516_paper-sheet-png-high-quality-image-notebook.png);
+  background-size: 1000px 400px;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: auto;
+}
+
+.unchecked {
+  font-family: 'Merienda', cursive;
+  font-size: 25px;
+}
+
+.checked {
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+  padding-left: 1.2rem;
+  -webkit-text-decoration: line-through solid red;
+          text-decoration: line-through solid red;
+  text-decoration-thickness: 4px;
+  opacity: 0.6;
+}
+
+footer {
+  text-align: center;
+  background-color: #10e4e4;
+  color: white;
+  padding: 1%;
+  margin-top: 1%;
+}
+
+footer a {
+  color: white;
+  cursor: alias;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
