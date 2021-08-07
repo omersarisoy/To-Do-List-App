@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My To-Do List</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -28,9 +29,18 @@
 
     </header>
 
+    
     <main>
-        <div id="quote">The best way to predict your future is to create it.<sub>Abraham Lincoln</sub> </div>
+        <figure id="quote">
+            <blockquote  class="blockquote">
+                The best way to predict your future is to create it.
+            </blockquote>
 
+            <figcaption class="blockquote-footer" style="text-align: right;"> 
+                Abraham Lincoln
+            </figcaption>
+        </figure>
+        
         <div id="input-box">
             <input type="text" id="input-area" placeholder="Add Your Plan Here... 🖊︁">
             <button id="button" > + </button>
@@ -44,7 +54,7 @@
 
     </main>
     <footer>
-        <h2 style="color:rgb(114,69,69) ;">Designed by <a href="https://github.com/omersarisoy" target="_blank"><mark style="background-color: rgb(114,69,69); color: white">Ömer SARISOY</mark></a></h2>
+        <h2 style="color:rgb(114,69,69) ; padding-top: 7px;">Designed by <a href="https://github.com/omersarisoy" target="_blank"><mark style="background-color: rgb(114,69,69); color: white" >Ömer SARISOY</mark></a></h2>
     </footer>
 
     <script src="app.js"></script>
